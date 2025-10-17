@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nome": "Notebook Dell Inspiron 15, Intel Core i5, 8GB RAM, 256GB SSD",
+        "preco": 3500.00,
+        "categoria": "Notebook"
+    },
+    {
+        "id": 2,
+        "nome": "Smartphone Samsung Galaxy S21, 128GB, Preto",
+        "preco": 2500.00,
+        "categoria": "Smartphone"
+    },
+    {
+        "id": 3,
+        "nome": "Headphones Sony WH-1000XM4, Cancelamento de Ruído",
+        "preco": 800.00,
+        "categoria": "Fone de Ouvido"
+    },
+    {
+        "id": 4,
+        "nome": "Monitor LG 24MP59G-P, 24 polegadas, Full HD",
+        "preco": 1200.00,
+        "categoria": "Monitor"
+    },
+    {
+        "id": 5,
+        "nome": "Teclado Mecânico Redragon Kumara K552, RGB, Switches Outemu Blue",
+        "preco": 450.00,
+        "categoria": "Teclado"
+    }
+]
