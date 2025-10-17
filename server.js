@@ -9,7 +9,11 @@ const Livros = require('./models/livros');
 const fs = require('fs');
 const path = require('path');
 
+const cors = require('cors')
+
 app.use(express.json());
+
+app.use(cors())
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
