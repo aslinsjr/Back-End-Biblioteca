@@ -46,17 +46,17 @@ app.get('/about', (req, res) => {
 })
 
 // rota para retornar package.json
-// app.get('/package.json', (req, res) => {
-//   const p = path.join(__dirname, 'package.json');
-//   fs.readFile(p, 'utf8', (err, data) => {
-//     if (err) return res.status(500).json({ error: 'Não foi possível ler package.json' });
-//     try {
-//       return res.json(JSON.parse(data));
-//     } catch (e) {
-//       return res.status(500).json({ error: 'JSON inválido em package.json' });
-//     }
-//   });
-// });
+app.get('/package.json', (req, res) => {
+  const p = path.join(__dirname, 'package.json');
+  fs.readFile(p, 'utf8', (err, data) => {
+    if (err) return res.status(500).json({ error: 'Não foi possível ler package.json' });
+    try {
+      return res.json(JSON.parse(data));
+    } catch (e) {
+      return res.status(500).json({ error: 'JSON inválido em package.json' });
+    }
+  });
+});
 
 app.listen(port, () => {
     console.log(`API rodando em http://localhost:${port}`)
