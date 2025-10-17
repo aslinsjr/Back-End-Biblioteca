@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const mongoose = require('mongoose');
-const uri = process.env.MONGODB_URI || "mongodb+srv://gabrielsilveira2505_db_user:54123@cluster0.8o5q2jl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = process.env.MONGODB_URI || "mongodb+srv://Vercel-Admin-Back-End-Biblioteca:<db_password>@back-end-biblioteca.e1qushk.mongodb.net/?retryWrites=true&w=majority&appName=Back-End-Biblioteca";
 
 const Livros = require('./models/livros');
 const fs = require('fs');
